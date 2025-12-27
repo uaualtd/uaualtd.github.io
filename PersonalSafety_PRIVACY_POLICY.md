@@ -258,9 +258,9 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at:
 
-**Email:** [Your Contact Email]
+**Email:** uaua.ltd+apps@gmail.com
 
-**Developer:** [Your Name/Company Name]
+**Developer:** UAUA Apps
 
 ---
 
