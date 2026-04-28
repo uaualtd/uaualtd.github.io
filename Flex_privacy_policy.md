@@ -106,4 +106,4 @@ When updates happen, the "Last updated" date at the top of this document will be
 
 For privacy questions about Flex, contact:
 
-Email: [add contact email]
+Email: uaua.ltd+flex@gmail.com
