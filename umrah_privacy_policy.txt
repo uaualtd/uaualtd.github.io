@@ -1,9 +1,59 @@
-Privacy Policy
-Introduction
-Welcome to Umrah Guide GPS Tawaf Counter (the "App"). We respect your privacy and are committed to protecting it through our compliance with this policy. 
-This Privacy Policy describes the types of information we may collect from you or that you may provide when you use the App and our practices for collecting, using, maintaining, protecting, and disclosing that information.
+# Privacy Policy — Umrah Hajj Guide GPS Tawaf Counter
 
-The App does not collect personal data from users.
+## Introduction
 
-Changes to This Privacy Policy
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy
+Welcome to **Umrah & Hajj Guide** / **Umrah Guide GPS Tawaf Counter** - (the "App"). We respect your privacy and are committed to protecting it. This Privacy Policy explains what data the App accesses on your device, how that data is used, and your rights in relation to it.
+
+---
+
+## Location Permissions
+
+### Precise Location (GPS)
+
+**Android:** `ACCESS_FINE_LOCATION` · **iOS:** `NSLocationWhenInUseUsageDescription`
+
+The App accesses your device's precise GPS coordinates to:
+
+- Automatically detect and count laps during Tawaf (circumambulation of the Kaaba).
+- Automatically detect and count laps during Sa'ee (walking between Safa and Marwa).
+- Display your position on the offline Masjid al-Haram map.
+
+Location data is processed **entirely on your device**. It is never transmitted to any server, third party, or remote service.
+
+### Approximate Location
+
+**Android:** `ACCESS_COARSE_LOCATION`
+
+Requested as a companion to precise location, per Android platform requirements. Used for the same purposes as precise location above.
+
+### Background Location
+
+**Android:** `ACCESS_BACKGROUND_LOCATION` · **iOS:** `NSLocationAlwaysAndWhenInUseUsageDescription`
+
+The App continues to receive GPS updates while running in the background or while the device screen is off. This is required so that Tawaf and Sa'ee laps are not missed when you turn off the screen during tracking. The foreground service notification is always visible while background tracking is active. Background location is only active during an active tracking session.
+
+---
+
+## Motion and Fitness (iOS)
+
+**iOS:** `NSMotionUsageDescription` · **Android:** `ACTIVITY_RECOGNITION`
+
+The App reads step-count data from your device's motion sensor to supplement GPS-based lap detection during Sa'ee. This data is processed on-device and is never transmitted off the device.
+
+---
+
+## Data Storage and Retention
+
+All session data (lap counts, route history, settings) is stored **locally on your device** using an on-device SQLite database. We do not have external servers. We do not store your data. You can delete app data at any time through your device's app settings, which will erase all stored session history.
+
+---
+
+## Data Sharing
+
+We do not access, store, sell, trade, rent, or otherwise share any data collected or processed by the App with third parties. The App contains no advertising SDKs, analytics SDKs, or crash-reporting services.
+
+---
+
+## Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. Any changes will be reflected by an updated effective date at the top of this page. Continued use of the App after a change constitutes your acceptance of the updated policy.
