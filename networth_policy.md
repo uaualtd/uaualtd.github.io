@@ -100,4 +100,4 @@ When updates happen, the "Last updated" date at the top of this document will be
 
 For privacy questions about NetWorth Tracker, contact:
 
-Email: your-email@example.com
+Email: uaua.ltd+wealth@gmail.com
