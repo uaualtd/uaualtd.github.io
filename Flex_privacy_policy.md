@@ -1,109 +1,109 @@
-# Flex - Privacy Policy
+# Flex — Privacy Policy
 
-Last updated: 28 April 2026
+Last updated: 14 August 2026
 
-Flex is designed as a privacy-first personal finance simulation app. This policy explains what information Flex handles, what it does not collect, and how your data is stored.
+> **This file is the source for the published copy.** It is published as
+> `Flex_privacy_policy.md` in the `uaualtd/uaualtd.github.io` repo and served at
+> <https://uaualtd.github.io/Flex_privacy_policy>, which is the URL the App Store Connect and Play
+> Console metadata fields point at and the one the app links out to (`kPrivacyPolicyUrl`).
+>
+> The in-app copy is `kPrivacyPolicy` in `lib/screens/legal_screen.dart`. **All three must say the
+> same thing** — change one, change the others, move the date on each, and push the result to the
+> site. The published copy was last left on the April 2026 text, which predates the Photos and
+> Notifications sections below.
 
-## 1. Overview
+Flex is a privacy-first personal finance simulator. This policy explains what information Flex
+handles, what it does not collect, and where your data is kept.
 
-Flex is built around local, on-device usage.
+## Overview
 
-- No user accounts or sign-in.
+Flex is built around local, on-device use.
+
+- No user accounts and no sign-in.
 - No advertising SDKs.
 - No analytics or tracking SDKs.
-- No developer-operated cloud backend for your in-app financial simulation data.
+- No developer-operated server that receives your simulation data.
 
-Your profile settings, accounts, balances, and transactions are stored on your device.
+Your profile settings, accounts, balances and transactions are stored on your device.
 
-## 2. Data We Collect
+## Information we collect
 
-Flex does not collect personal data directly through developer servers.
+Flex does not collect personal data through developer servers. In particular, Flex does not collect
+or transmit to the developer:
 
-Specifically, Flex does not directly collect or transmit to the developer:
+- Your name, email address, phone number or contact details.
+- Your in-app accounts, balances or transaction history.
+- Usage analytics or behavioural tracking data.
 
-- Your name, email, phone number, or contact details.
-- Your in-app accounts, balances, or transaction history.
-- Your usage analytics or behavior tracking data.
+## On-device storage
 
-## 3. On-Device Data Storage
-
-Flex stores app data locally on your device using on-device app storage.
-
-This includes, for example:
+Flex stores its data locally on your device, including:
 
 - Simulated account and transaction data.
-- Selected profile/configuration.
-- App preferences (such as display and customization choices).
-- Premium entitlement cache state used for purchase restoration behavior.
+- The simulation profile you have selected.
+- App preferences, such as display and customisation choices.
+- A cached record of which purchases you own, so features can be restored.
 
-If you uninstall Flex, locally stored app data may be removed according to your platform's behavior.
+If you uninstall Flex, this local data is removed according to your platform's normal behaviour.
 
-## 4. In-App Purchases
+## Photos
 
-Flex offers optional in-app purchases (for example, premium customization features).
+If you choose to set an account photo, the image you pick is copied into Flex's own storage on your
+device and is never uploaded anywhere. Flex only reads the single image you select; it does not scan
+or index your photo library. You can remove the photo at any time from Settings.
 
-Purchases are processed by your platform store provider, such as:
+## Notifications
 
-- Apple App Store
-- Google Play
+If you allow notifications, Flex schedules them locally on your device. They are composed on the
+device from your own simulated data. No notification content leaves the device and there is no push
+server.
 
-Important details:
+## In-app purchases
 
-- Payment processing is handled by the store, not by the Flex developer.
-- Flex may receive purchase status/entitlement signals from the store so features can be unlocked or restored.
-- Flex does not receive your full payment card details.
+Flex offers optional one-time in-app purchases.
 
-Your transactions with Apple or Google are governed by their terms and privacy policies.
+- Payment is processed by the App Store or Google Play, not by the developer.
+- Flex receives only the purchase status needed to unlock and restore features.
+- Flex never receives your payment card details.
+- Your purchases are governed by Apple's or Google's own terms and privacy policies.
 
-## 5. Network Access and Connectivity
+## Network access
 
-The core Flex experience is designed to work with locally stored data.
+The core Flex experience runs on locally stored data. Network activity happens only for
+platform-managed reasons, such as in-app purchase and restore checks through Apple or Google, and
+opening a link you tapped. Flex runs no backend of its own.
 
-Network activity may occur for limited platform-managed reasons, including:
+## Third-party services
 
-- In-app purchase flows and restore checks through Apple/Google services.
-- App distribution, updates, and store infrastructure operations.
+Flex uses the platform and framework components it needs to run, such as the Flutter runtime and the
+store billing libraries. It includes no third-party advertising or user-tracking SDKs. Where
+platform services are involved, those providers handle data under their own policies.
 
-Flex does not run a developer backend that receives your account/transaction simulation data.
+## Children's privacy
 
-## 6. Third-Party Services and SDKs
+Flex is a general-audience app and is not directed at children. Because Flex operates no servers
+that collect personal data, the developer does not knowingly collect personal data from children.
+Parents and guardians can remove all app data by clearing app data or uninstalling Flex.
 
-Flex uses essential platform and framework components to function (for example, Flutter runtime and app store billing infrastructure).
+## Your control over your data
 
-Flex does not include third-party advertising or analytics SDKs for user tracking.
+Because Flex's data lives on your device:
 
-Where third-party platform services are involved (such as Apple/Google purchase services), those providers process data under their own policies.
+- You can edit or delete in-app data from within the app.
+- You can clear local app data from your device settings.
+- You can uninstall Flex to remove it, subject to your device backup settings.
 
-## 7. Children's Privacy
+## Security
 
-Flex is a general-audience app and is not directed specifically to children.
+Flex relies on the technical measures the platform and app framework provide for local data. No
+software is perfectly secure, and device-level protections — passcode, biometrics, OS updates and
+backup settings — remain your responsibility.
 
-Because Flex does not operate developer servers to collect personal data from users, the developer does not knowingly collect personal data from children through Flex.
+## Changes to this policy
 
-If you are a parent or guardian and have concerns, you can remove app data by deleting app data or uninstalling the app on the device.
+If Flex's data practices change, this policy is updated and the date at the top of this page changes
+with it.
 
-## 8. Your Control Over Data
+## Contact
 
-Because Flex data is stored locally on your device:
-
-- You can edit or remove in-app data within the app.
-- You can clear local app data using your device/app settings.
-- You can uninstall the app to remove locally stored data (subject to device backup behavior).
-
-## 9. Data Security
-
-Flex uses reasonable technical measures provided by the platform and app framework for local data handling.
-
-No software environment is perfectly secure. You are responsible for device-level security controls such as passcodes, biometrics, operating system updates, and backup settings.
-
-## 10. Changes to This Policy
-
-If Flex data practices change, this policy will be updated.
-
-When updates happen, the "Last updated" date at the top of this document will be revised.
-
-## 11. Contact
-
-For privacy questions about Flex, contact:
-
-Email: uaua.ltd+flex@gmail.com
+For privacy questions about Flex, write to uaua.ltd+flex@gmail.com.
