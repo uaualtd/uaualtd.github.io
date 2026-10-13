@@ -1,16 +1,5 @@
 # Beautiful Maths — Privacy Policy
 
-Last updated: 11 October 2026
-
-> **This file is the source for the published copy.** Publish it as
-> `Beautiful_Maths_privacy_policy.md` in the `uaualtd/uaualtd.github.io` repo, served at
-> <https://uaualtd.github.io/Beautiful_Maths_privacy_policy>, which is the URL for the App Store
-> Connect and Play Console privacy policy fields.
->
-> The in-app copy is `_sections` in `lib/ui/privacy_screen.dart` (Settings → Privacy policy).
-> **Both must say the same thing** — change one, change the other, move the date on each, and push
-> the result to the site.
-
 Beautiful Maths is a mental arithmetic trainer. This policy explains what information Beautiful
 Maths handles, what it does not collect, and where your data is kept.
 
