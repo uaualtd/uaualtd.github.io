@@ -2,8 +2,6 @@
 
 Last updated: 26 October 2026
 
->
-
 Roadster Jump is a driving game. This policy explains what information Roadster Jump handles, what
 it does not collect, and where your data is kept.
 
