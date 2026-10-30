@@ -1,8 +1,8 @@
 # Privacy Policy for TelePro
 
-**Last Updated: February 21, 2026**
+**Last Updated: October 30, 2026**
 
-**Effective Date: February 21, 2026**
+**Effective Date: October 30, 2026**
 
 ---
 
@@ -21,7 +21,7 @@ TelePro ("the App") is a Telegram power toolkit that helps you manage, export, a
 TelePro is designed with privacy as a core principle:
 
 - ❌ **No data collection** — We do not collect any personal information
-- ❌ **No analytics** — We do not track how you use the app
+- ❌ **No analytics** — We do not track how you use the app (chat analytics are worked out on your device and stay there)
 - ❌ **No advertising** — We do not display ads or use ad tracking
 - ❌ **No third-party tracking** — We do not use any tracking SDKs
 - ❌ **No servers** — We do not operate any servers that receive your data
@@ -35,8 +35,10 @@ TelePro connects directly to Telegram's servers using their official TDLib (Tele
 
 1. **Your Telegram credentials** are handled entirely by Telegram's official library
 2. **Your chat data** is fetched directly from Telegram to your device
-3. **All data stays on your device** — nothing is transmitted to us or any third party
+3. **All data stays on your device** — nothing is transmitted to us
 4. **Exports and downloads** are saved locally to your device storage
+
+Data held on Telegram's servers is covered by Telegram's own privacy policy: https://telegram.org/privacy
 
 ---
 
@@ -46,11 +48,13 @@ All data used by TelePro is stored **locally on your device only**, including:
 
 - Your Telegram session (managed by TDLib)
 - Your chat data and messages (cached for display)
-- Exported files (PDFs, media downloads)
+- Chat exports (text and JSON files) and downloaded media
+- Collections and their files (in the Files tab)
 - App preferences and settings
-- Vault contents (securely stored media)
 
-This data **never leaves your device** except when communicating directly with Telegram's official servers.
+On iPhone, exports and downloads are saved in TelePro's folder in the Files app. Your device's own backups (iCloud or Google) may include app files, depending on your device settings; on iPhone the Telegram session is excluded from backups.
+
+This data **never leaves your device** except when communicating directly with Telegram's official servers, or when you choose to share a file with another app.
 
 ---
 
@@ -63,7 +67,10 @@ Your data is **NEVER** shared with:
 - Advertising networks
 - Any other third parties
 
-The only external communication is between your device and Telegram's official servers, which is necessary for the app to function.
+The app's main external connection is between your device and Telegram's official servers, which is necessary for the app to function. Two others carry none of your Telegram data:
+
+- **Fonts** — The app downloads its typeface (Inter) from Google Fonts the first time it is needed. Google receives a standard web request (such as your IP address) and nothing else.
+- **Demo account** — If you sign in with the demo account (used for app review), placeholder pictures are loaded from picsum.photos and ui-avatars.com.
 
 ---
 
@@ -75,9 +82,9 @@ The App requires the following permissions:
 - **Internet Access** — Required to connect to Telegram's servers and fetch your data
 
 ### Optional Permissions (requested only when needed)
-- **Storage Access** — Required to save exported files and downloaded media to your device
-- **Photo/Video Library Access** — Required to save media to your gallery
-- **Background Processing** — Required for long-running export and download operations
+- **Storage and Media Access (Android)** — Required to save exported files and downloaded media to your device
+- **Background Processing (Android)** — Required for long-running export and download operations
+- **Photos and Music (iPhone)** — Asked for only if you choose to pick a file from them
 
 All permissions are used solely for local functionality. No data from these permissions is sent to external servers (other than Telegram).
 
@@ -113,7 +120,7 @@ TelePro takes your security seriously:
 - Uses Telegram's official TDLib library for secure communication
 - Stores sensitive data using platform-secure storage mechanisms
 - Does not transmit your data to any third-party servers
-- All Telegram communication uses Telegram's end-to-end encryption protocols
+- All communication with Telegram is encrypted with Telegram's MTProto protocol (end-to-end encryption applies only to Telegram's Secret Chats)
 
 ---
 
